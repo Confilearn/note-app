@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  color: #fff;
+  padding-top: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.heading__image {
+  width: 6rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#9418fd, #571094);
+  color: #fff;
+  font-size: 1.6rem;
+  outline: 0;
+  border: 0;
+  border-radius: 4rem;
+  padding: 1.5rem 2.5rem;
+  margin: 3rem 0 2rem;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn__image {
+  width: 2.5rem;
+  margin-right: 0.8rem;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+  min-height: 15rem;
+  background: #fff;
+  color: #333;
+  padding: 2rem;
+  margin: 2rem 0;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.input-box img {
+  width: 2.5rem;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
